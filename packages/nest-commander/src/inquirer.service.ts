@@ -1,6 +1,6 @@
 import { DiscoveredMethodWithMeta, DiscoveryService } from '@golevelup/nestjs-discovery';
 import { Inject, Injectable } from '@nestjs/common';
-import { DistinctQuestion, Inquirer as InquirerType } from 'inquirer';
+import { DistinctQuestion, default as InquirerType } from 'inquirer';
 import {
   InquirerKeysWithPossibleFunctionTypes,
   QuestionMetadata,
